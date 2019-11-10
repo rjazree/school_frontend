@@ -1,0 +1,351 @@
+*{margin:0;padding:0}
+body{
+	background-color:#a0c1f7; /*  <!--website er background er color changekore-->*/
+	background-image:url("kid.jpg");
+	/* Full height */
+    height: 100%;
+	text-align:center;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+		
+#google_translate_element{
+	 padding: 10px 18px;/*size changed*/
+    margin: -150px 590px;/* positon*/
+	
+	
+}
+
+#search{
+	
+	 padding: 1px 18px;/*size changed*/
+    margin: -150px 370px;/* positon*/
+
+	
+}
+	/*for search*/
+#search input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-repeat: no-repeat;
+    padding: 1px 2px 1px 5px;/*height baray,width baray,height komay,likha bame kototuk thakbe thik kore*/
+  
+   
+}	
+
+
+/* Set a style for all buttons */
+#login button {
+    background-color: #2395e0;
+    color: white;
+    padding: 10px 18px;/*log in box's size changed*/
+    margin: -150px 40px;/*box's positon*/
+    border: none;
+    cursor: pointer;
+    width: 60px;
+}
+*/
+#login button:hover {
+    opacity: 0.10;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #2395e0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#wrapper{
+	width:100%; /* <!--website er size change kore-->*/
+	margin:10px auto;/*header er upore gape dibe*/
+}
+
+#header{
+	width:100%;
+
+	background-color:#041077;  /* <!--shudhu header er background er color change korbe-->*/
+	padding:25px;   /*likha kichuta vitore thakar jonno header er-->*/
+	height:110px;/*menu gula heading er koto tuk niche hobe thik kore*/
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	border-radius:8px;
+	}
+
+	
+#header h1{/*<!--school name's size-->*/
+		color:white;
+		font-family:Algerian;
+		text-decoration:bold;
+		padding:6px;
+		
+		}
+
+		#header p{/*<!--12 number line-->*/
+		color:white;
+		font-family:Algerian;
+		text-decoration:bold;
+	
+		}
+#contactemail p{
+	float:right;
+	  padding: 10px 18px;/*size changed*/
+    margin: -150px 150px;/* positon*/
+	color:white;
+		text-decoration:bold;
+  
+}
+#header img{
+	width:120px;
+	border-bottom:3px solid #e8f7f7;
+	float:left;
+	
+	}
+
+#name{
+	padding: 100px 18px;/*size changed*/
+    margin: -125px 0px;/* positon*/
+	
+}	
+#menu ul{
+	list-style:none;/*remove the bullets of the menu,currently it is verticle*/
+	z-index:1000;
+	}
+#menu ul li{
+	background-color:#2395e0;
+	border:1px solid white;/*proti menu er majkhane gape dibe*/
+	width:222.5px;/*proti menu er width*/
+	height:35px;/*menu er height*/
+	line-height:35px;/*likha upor niche theke majkhane thakbe*/
+	text-align:center;/*likhata majkhane dibe*/
+	float:left;/*verticle k horizontal korbe*/
+	position:relative;
+	border-radius:8px;/*squar box kicuta gol hobe*/
+}
+
+#menu ul li a{
+	
+	text-decoration:none;/*likha gular niche je under line thake ta chole jay*/
+	color:white;
+	display:block;/*cursor menu er upor anle hand shaped hobe*/
+	
+	
+}
+
+#menu ul li a:hover{/*a er vitor je property tar color design korbo,hover mane jekhane shudu mouse nilei kaj hoy*/
+	 background-color:#041077;
+	 border-radius:8px;
+	
+}
+#menu ul ul{
+	position:absolute;
+	display:none;/*jate automatic sublist show na kore*/
+	
+	}
+	
+	
+#menu ul li:hover>ul{
+		display:block;/*ekhon shudu mouse oi option er upor anlei sublist show korbe*/
+		
+
+
+}
+
+#menu ul ul ul{/*mot 3 ta list*/
+	margin-left:222.5px;/*width thik kore .eta amra main ul e je width disilam tai dite hobe*/
+	top:0px;/*jetar sublist shetar pashei ashbe */
+	width:35px;
+}
+
+.container_full {
+	width: 100%; 
+	height: auto;
+	margin-left: 100px;
+}
+.container {
+	width:100%;
+	margin:5 auto;
+	display:block
+	}
+	
+.fix{
+	overflow:hidden;
+	} 
+.aligncenter{
+	display:block;
+	margin:0 auto;
+	}
+.floatleft{
+	float:left;
+	}
+
+/*Css for dropdown*/
+.content_wrapper{
+	width:100%;
+	padding:1px;
+	margin-top:2px solid black;
+}
+.content_wrapper h2{
+	font-family: 'Oswald', sans-serif;
+	background-color:#041077;
+	}/*changing menus heading style*/
+
+.content_wrapper p,.content_wrapper a{
+	font-family: 'Roboto', sans-serif;
+	}
+	
+.left_content{
+
+	background:#d6daad;
+
+		margin-top:10px;
+	border-top:1px solid ;
+    width: 200px;
+	float:left;
+	margin-bottom: 6px;
+		border-radius:8px;/*squar box kicuta gol hobe*/
+
+	}
+.left_content ul{
+	
+	padding:5px;
+	}
+	
+.left_content ul li{
+	list-style:none;
+	margin-top: 4px;
+	border-bottom: 2px solid #000;/*make under line after every option*/
+	}
+	
+.left_content ul li:last-child{
+	border-bottom: none;/*remove underline from last option*/
+	}
+
+.left_content ul li a{
+	text-decoration:none;/*likha gular niche je under line thake ta chole jay*/
+	color:black;
+	display:block;/*cursor menu er upor anle hand shaped hobe*/
+
+
+	}
+	
+.left_content ul li a:hover{
+	color:#041077;/*cursor anle black hobe */ 
+	display:block;
+	}
+	
+.left_content h2{
+	background: #041077;
+	color: white;
+	padding: 5px;
+	font-size: 25px;
+	}
+	
+.left_content p{
+	margin-bottom:0px;
+	margin-left:5px;
+	margin-bottom: 6px;
+	}
+	
+.middle_content{
+	width: 870px;
+background: #f7ebeb;
+padding: 20px;
+margin:3px;
+border-radius:8px;
+margin-top:5px;
+height:1140px;
+}
+
+.content_wrapper input{
+	width:150px;
+	height:15px;
+	border-radius:5px;
+	margin-left:5px;
+	}
+	
+.middle_content h2{
+	padding: 2px 2px 2px 30px;
+background: url(images/3-bar-menu.png) no-repeat #ddd;
+background-size: 20px 20px;
+background-position: 5px 10px;
+margin:10px -10px 10px -10px;
+}
+
+
+
+
+
+
+
+
+.footer{
+	
+	background-color:#041077;  /* <!--shudhu header er background er color change korbe-->*/
+	padding:0px;   /*likha kichuta vitore thakar jonno header er-->*/
+	height:200px;/*menu gula heading er koto tuk niche hobe thik kore*/
+	border-top:1px solid white;
+	border-bottom:2px solid white;
+	border-radius:8px;
+	}
+
+#contact p{/*<!--12 number line-->*/
+		color:white;
+		text-decoration:bold;
+	padding:10px;
+		float:left;
+		
+		}
+
+		
+#quicklinks p{/*<!--12 number line-->*/
+		color:white;
+		text-decoration:bold;
+	padding:138px;
+	margin-top:30px;/*upor theke likhata koto niche thakbe thik kore*/
+		float:center;
+		}
+
+		
+			
+.footer2{
+	width:100%;
+	height:20px;
+	background-color:#635548;
+	padding:20px;
+	text-align:center;
+	}
+.footer2 p{
+	color:#fff;
+}
+
+

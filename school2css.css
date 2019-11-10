@@ -1,0 +1,459 @@
+*{margin:0;padding:0}
+body{
+	background-color:#a0c1f7; /*  <!--website er background er color changekore-->*/
+	background-image:url("kid.jpg");
+	/* Full height */
+    height: 100%;
+	text-align:center;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+		
+.top{
+	width:97%;
+	background-color:#041077;  
+	padding:25px;  
+	height:40px;
+	border-top:1px solid white;
+	border-bottom:2px solid white;
+	
+	}
+	
+.top p{
+	padding:12px;
+	float: left;
+  margin: 5 3.5%;
+ color:white ;
+	text-decoration:bold;
+
+	
+}
+
+
+	/*for search*/
+#search input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  
+   
+}	
+
+	
+#id01{
+float:right;}
+
+
+/* Set a style for all buttons */
+#login button {
+    background-color: #2395e0;
+    color: white;
+    padding: 20px 18px;/*log in box's size changed*/
+    margin: -33px 33px;/*box's positon*/
+    border: none;
+    cursor: pointer;
+    width: 60px;
+}
+*/
+#login button:hover {
+    opacity: 0.10;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #2395e0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 10px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.container {
+	width:400px;
+    padding: 16px;
+	margin-top:0px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 20px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+#wrapper{
+	width:992px; /* <!--website er size change kore-->*/
+	margin:10px auto;/*header er upore gape dibe*/
+}
+
+#header{
+	
+	background-color:#041077;  /* <!--shudhu header er background er color change korbe-->*/
+	padding:25px;   /*likha kichuta vitore thakar jonno header er-->*/
+	height:250px;/*menu gula heading er koto tuk niche hobe thik kore*/
+	border-top:1px solid white;
+	border-bottom:2px solid white;
+	border-radius:8px;
+	}
+
+	
+#header h1{/*<!--school name's size-->*/
+		color:white;
+		font-family:Algerian;
+		text-decoration:bold;
+		
+		}
+
+		#header p{/*<!--12 number line-->*/
+		color:white;
+		font-family:Algerian;
+		text-decoration:bold;
+		
+		}
+
+#header img{
+	width:200px;
+	border-bottom:3px solid #e8f7f7;
+	float:left;
+	}
+
+
+	
+#menu ul{
+	list-style:none;/*remove the bullets of the menu,currently it is verticle*/
+	z-index:999;
+	}
+#menu ul li{
+	background-color:#2395e0;
+	border:1px solid white;/*proti menu er majkhane gape dibe*/
+	width:163px;/*proti menu er width*/
+	height:35px;/*menu er height*/
+	line-height:35px;/*likha upor niche theke majkhane thakbe*/
+	text-align:center;/*likhata majkhane dibe*/
+	float:left;/*verticle k horizontal korbe*/
+	position:relative;
+	border-radius:8px;/*squar box kicuta gol hobe*/
+}
+
+#menu ul li a{
+	
+	text-decoration:none;/*likha gular niche je under line thake ta chole jay*/
+	color:white;
+	display:block;/*cursor menu er upor anle hand shaped hobe*/
+	
+	
+}
+
+#menu ul li a:hover{/*a er vitor je property tar color design korbo,hover mane jekhane shudu mouse nilei kaj hoy*/
+	 background-color:#041077;
+	 border-radius:8px;
+	
+}
+#menu ul ul{
+	position:absolute;
+	display:none;/*jate automatic sublist show na kore*/
+	
+	}
+	
+	
+#menu ul li:hover>ul{
+		display:block;/*ekhon shudu mouse oi option er upor anlei sublist show korbe*/
+		
+
+
+}
+
+#menu ul ul ul{/*mot 3 ta list*/
+	margin-left:163px;/*width thik kore .eta amra main ul e je width disilam tai dite hobe*/
+	top:0px;/*jetar sublist shetar pashei ashbe */
+	width:35px;
+}
+
+#slider_wrapper{
+	background-color:#041077;  /* <!--shudhu header er background er color change korbe-->*/
+	padding:30px;   /*likha kichuta vitore thakar jonno header er-->*/
+	height:380px;/*menu gula heading er koto tuk niche hobe thik kore*/
+	width:930px;
+	float:left;
+	overflow:hidden;
+	}
+
+
+#slider img{
+		vertical-align:middle;/*border top o pic er majkhaner 3px gap dur korbe*/
+		height:350px;
+		width:920px; /* <!--pic er size change kore-->*/
+	margin:20px auto;
+	
+	}
+.container_full {
+	width: 100%; 
+	height: auto;
+}
+.container {
+	width:992px;
+	margin:5 auto;
+	display:block
+	}
+	
+.fix{
+	overflow:hidden;
+	}
+.aligncenter{
+	display:block;
+	margin:0 auto;
+	}
+.floatleft{
+	float:left
+	}
+.floatright{float:right}
+/*Css for dropdown*/
+.content_wrapper{
+	width:992px;
+	padding:1px;
+	margin-top:2px solid black;
+}
+.content_wrapper h2{
+	font-family: 'Oswald', sans-serif;
+	background-color:#041077;
+	}/*changing menus heading style*/
+
+.content_wrapper p,.content_wrapper a{
+	font-family: 'Roboto', sans-serif;
+	}
+	
+.left_content,.right_content{
+
+	background:#d6daad;
+
+		margin-top:10px;
+	border-top:1px solid ;
+    width: 200px;
+	float:left;
+	margin-bottom: 6px;
+		border-radius:8px;/*squar box kicuta gol hobe*/
+
+	}
+.left_content ul,.right_content ul{
+	
+	padding:5px;
+	}
+	
+.left_content ul li,.right_content ul li{
+	list-style:none;
+	margin-top: 4px;
+	border-bottom: 2px solid #000;/*make under line after every option*/
+	}
+	
+.left_content ul li:last-child,.right_content ul li:last-child{
+	border-bottom: none;/*remove underline from last option*/
+	}
+
+.left_content ul li a,.right_content ul li a{
+	text-decoration:none;/*likha gular niche je under line thake ta chole jay*/
+	color:black;
+	display:block;/*cursor menu er upor anle hand shaped hobe*/
+
+
+	}
+	
+.left_content ul li a:hover,.right_content ul li a:hover{
+	color:#041077;/*cursor anle black hobe */ 
+	display:block;
+	}
+	
+.left_content h2, .right_content h2{
+	background: #041077;
+	color: white;
+	padding: 5px;
+	font-size: 25px;
+	}
+	
+.left_content p, .right_content p{
+	margin-bottom:0px;
+	margin-left:5px;
+	margin-bottom: 6px;
+	}
+	
+.middle_content{
+	width: 540px;
+background: #f7ebeb;
+padding: 10px;
+border-radius:8px;
+}
+
+.content_wrapper input{
+	width:150px;
+	height:15px;
+	border-radius:5px;
+	margin-left:5px;
+	}
+	
+.middle_content h2{
+	padding: 2px 2px 2px 30px;
+background: url(images/3-bar-menu.png) no-repeat #ddd;
+background-size: 20px 20px;
+background-position: 5px 10px;
+margin:10px -10px 10px -10px;
+}
+
+
+
+
+
+
+
+
+.footer{
+	
+	background-color:#041077;  /* <!--shudhu header er background er color change korbe-->*/
+	padding:0px;   /*likha kichuta vitore thakar jonno header er-->*/
+	height:200px;/*menu gula heading er koto tuk niche hobe thik kore*/
+	border-top:1px solid white;
+	border-bottom:2px solid white;
+	border-radius:8px;
+	}
+
+#contact p{/*<!--12 number line-->*/
+		color:white;
+		text-decoration:bold;
+	padding:10px;
+		float:left;
+		
+		}
+
+		
+#quicklinks p{/*<!--12 number line-->*/
+		color:white;
+		text-decoration:bold;
+	padding:138px;
+	margin-top:30px;/*upor theke likhata koto niche thakbe thik kore*/
+		float:center;
+		}
+
+		
+			
+.footer2{
+	width:97%;
+	height:20px;
+	background-color:#635548;
+	padding:20px;
+	text-align:center;
+	}
+.footer2 p{
+	color:#fff;
+}
+
+
