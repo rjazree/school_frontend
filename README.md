@@ -1,5 +1,4 @@
 # school_frontend
-
-http://www.raiyantazree.com/school/
+https://schoolfrontend.netlify.app/
 
 ![](https://github.com/rjazree/school_frontend/blob/master/image.png)
